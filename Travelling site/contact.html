@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel the World | Contact</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar bg-dark">
+      <div class="container">
+        <h1 class="logo logo-h text-white">Rakesh</h1>
+        <!-- imp    1> Add path to the links -->
+        <ul class="nav-items">
+          <li class="nav-item"><a href="./index.html">Home</a></li>
+          <li class="nav-item"><a href="./about.html">About</a></li>
+          <li class="nav-item"><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="contact-form">
+      <div class="container">
+        <div class="form-wrap">
+          <!-- imp     Make sure u place the div not inside form as it will collapse and u wont get desired result -->
+          <div class="company-add lg-heading">
+            <div class="add-box">
+              <div class="add-grp">
+                <i class="fa-solid fa-location-dot text-red fa-2x"> </i>
+                <h3>Location</h3>
+                <p class="md-heading">Koperkhairne , Navi mumbai 400709</p>
+              </div>
+
+              <div class="add-grp">
+                <i class="fa-solid fa-envelope text-red fa-2x"> </i>
+                <h3>E mail</h3>
+                <p class="md-heading">rakeshsinghtcp@gmail.com</p>
+              </div>
+
+              <div class="add-grp">
+                <i class="fa-solid fa-square-phone text-red fa-2x"> </i>
+                <h3>Phone</h3>
+                <p class="md-heading">+91 8546567534</p>
+              </div>
+
+              <!-- imp    For now this image is misfit -->
+              <img src="./img/company-img.jpg" alt="Company image" />
+            </div>
+          </div>
+
+          <form action="" class="form lg-heading text-black">
+            <h1 class="h11 lg-heading text-black">Contact Us</h1>
+            <p class="text-grey">Let us know more</p>
+            <div class="form-grp">
+            <label for="username">Username</label>
+            <input type="text" name="" id="username" required>
+            </div>
+            <div class="form-grp">
+            <label for="mail">E-mail</label>
+            <input type="email" name="" id="mail" required>
+            </div>
+            <div class="form-grp">
+            <label for="phone">Phone</label>
+            <input type="text" name="" id="phone" required>
+            </div>
+            <div class="form-grp">
+            <label for="message">Message</label>
+            <!-- imp    Text area required to be       closed -->
+            <!--                                          ↓  -->
+            <textarea name="" id="message" required> </textarea>
+            </div>
+            <button type="submit" class="form-btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+        <div class="social-media">
+          <i class="fab fa-facebook fa-4x"></i>
+          <i class="fab fa-twitter fa-4x"></i>
+          <i class="fab fa-instagram fa-4x"></i>
+          <p>Travel the World &copy 2020 , All Rights Reserved</p>
+        </div>
+      </footer>
+
+  </body>
+</html>

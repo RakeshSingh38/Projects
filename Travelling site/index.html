@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to my site</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="container">
+          <h1 class="logo logo-h text-white">Rakesh</h1>
+          <!-- imp    1> Add path to the links -->
+          <ul class="nav-items">
+            <li class="nav-item"><a href="./index.html">Home</a></li>
+            <li class="nav-item"><a href="./about.html">About</a></li>
+            <li class="nav-item"><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="header-content">
+        <h1 class="h1-heading text-white">Travel the World</h1>
+        <p class="text-white">
+          Travel the world easily , join us in this adventure and go to heaven
+        </p>
+        <!-- r    I used id to link the explore button on the 1st page to go to 2nd page -->
+        <a href="#explore" class="btn btn-primary text-red md-heading"
+          >Explore places</a
+        >
+      </div>
+    </header>
+    <!-- see    Here id explore is used This method is used to directly go to desired page ,
+      So now i know why URL's show # when we click on a button-->
+
+    <section class="showcase" id="explore">
+      <div class="container">
+        <div class="row row1">
+          <div class="imgbox">
+            <img src="./img/showcase-photo3.jpg" alt="DEsc" />
+          </div>
+
+          <div class="textbox">
+            <h2 class="logo-h text-black">Koperkhairne</h2>
+            <p class="text-grey">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              rerum, error facilis quidem nobis quibusdam sunt at! Molestias
+              recusandae corporis maiores obcaecati, laboriosam ab illo, quas,
+              earum blanditiis cupiditate harum.
+            </p>
+            <a href="./about.html" class="btn btn_secondary">More</a>
+          </div>
+        </div>
+        <div class="row row2">
+          <div class="imgbox">
+            <img src="./img/showcase-photo1.jpg" alt="DEsc" />
+          </div>
+          <div class="textbox">
+            <h2 class="logo-h text-black">Vashi<h2>
+            <p class="text-grey">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              rerum, error facilis quidem nobis quibusdam sunt at! Molestias
+              recusandae corporis maiores obcaecati, laboriosam ab illo, quas,
+              earum blanditiis cupiditate harum.
+            </p>
+            <a href="./about.html" class="btn btn_secondary">More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <div class="boxes">
+          <div class="box box1">
+            <i class="fa-solid fa-route fa-2x text-red"></i>
+            <h2 class="md-heading">Adventurous</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+              labore neque necessitatibus aperiam explicabo odio repellendus
+              minus animi veritatis natus.
+            </p>
+          </div>
+          <div class="box box2">
+            <i class="fa-solid fa-map fa-2x"></i>
+
+            <h2 class="md-heading">Special</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+              labore neque necessitatibus aperiam explicabo odio repellendus
+              minus animi veritatis natus.
+            </p>
+          </div>
+          <div class="box box3">
+            <i class="fa-solid fa-route fa-2x text-red"></i>
+            <h2 class="md-heading">Excititng</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+              labore neque necessitatibus aperiam explicabo odio repellendus
+              minus animi veritatis natus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="social-media">
+        <i class="fab fa-facebook fa-4x"></i>
+        <i class="fab fa-twitter fa-4x"></i>
+        <i class="fab fa-instagram fa-4x"></i>
+        <p>RAKESH SINGH &copy 2023 , All Rights Reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
